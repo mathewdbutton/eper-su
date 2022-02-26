@@ -67,3 +67,7 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
+
+gem "faker", "~> 2.19"
+
+gem "unicode_utils", "~> 1.4"

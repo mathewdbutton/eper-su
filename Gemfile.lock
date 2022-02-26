@@ -78,6 +78,8 @@ GEM
       reline (>= 0.2.7)
     digest (3.1.0)
     erubi (1.10.0)
+    faker (2.19.0)
+      i18n (>= 1.6, < 2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.10.0)
@@ -201,6 +203,7 @@ GEM
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.1.0)
+    unicode_utils (1.4.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -217,6 +220,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
+  faker (~> 2.19)
   importmap-rails
   jbuilder
   pg (~> 1.1)
@@ -229,6 +233,7 @@ DEPENDENCIES
   tailwindcss-rails
   turbo-rails
   tzinfo-data
+  unicode_utils (~> 1.4)
   web-console
 
 RUBY VERSION
